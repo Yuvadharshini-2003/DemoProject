@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart</title>
+    <script src="https://kit.fontawesome.com/8d1284bca2.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-color: lightgreen;
+        }
+        .main{
+            width: 48%;
+            height: 535px;
+            background-color: white;  
+            margin-left: 25%;
+            z-index: 1;
+            margin-top: 60px;
+            display: flex;
+        }
+        .container{
+            float: left;
+            width:49% ;
+            height: 450px;
+            background-color: lightgreen;
+            box-shadow: 5px 5px 5px 5px grey;
+            position: relative;
+            top: 40px;
+            right: 50px;
+        }
+        .container img.main{
+            width: 45%;
+            height: 290px;
+            position: relative;
+            right: 78px;
+            background-color: lightgreen;
+        }       
+        .containerb{
+            width: 100%;
+            height: 100px;
+            background-color: white;
+            position: relative;
+            bottom: -6px;
+        }
+        .containerb .images img:hover{
+            cursor: pointer;
+            border: 3px solid black;
+        }
+        .images{
+            display: flex;
+            justify-content: space-around;
+        }
+        .images img{
+            border: 2px solid black;
+            width: 50px;
+            height: 50px;
+            position: relative;
+            top: 20px;
+        }
+        .select{
+            display: flex;
+            justify-content: space-around;
+            margin: 0%;
+        }
+        .main .select img{
+            width: 45px;
+            height: 45px;
+            border: 1px solid black;
+        }
+        .main .select img:hover{
+            border: 2px solid black;
+        }
+        .b{
+            padding: 10px;
+            line-height: 26px;
+            width: 45%;
+        }
+        button{
+            padding: 10px;
+            background-color: red;
+            color: white;
+            border-radius: 10px;
+            box-shadow: 5px 5px 5px grey;
+            border-color: rgb(252, 219, 219);
+            width: 170px;
+        }
+        button:hover{
+            width: 190px;
+            height: 45px;
+        }      
+        .icons{
+            color: white;
+            margin: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="main">
+
+        <div class="container">
+            <div class="icons">
+                <i class="fa-solid fa-share-nodes"></i>
+                <i class="fa-solid fa-heart" style="float: right;"></i>
+            </div>
+            <div class="con">
+                <img src="https://www.urbangroc.com/wp-content/uploads/2023/01/pngwing.com_.png.webp" alt="Green Apple" style="width: 300px;height: 300px;">
+                <img src="" alt="">
+            </div>
+            <div class="containerb">
+                <div class="images">
+                    <img src="https://static.vecteezy.com/system/resources/thumbnails/002/076/947/small_2x/group-of-green-apples-free-photo.jpg" alt="">
+                    <img src="https://static.vecteezy.com/system/resources/previews/046/813/463/non_2x/green-apple-image-png.png" alt="">
+                    <img src="https://chefsmandala.com/wp-content/uploads/2018/03/Apple-Green.jpg" alt="">
+                    <img src="https://thumbs.dreamstime.com/b/green-apple-sliced-isolated-white-background-51207517.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="b">
+
+        <h2>Delicious Apples</h2>
+        <p>COD 23456</p>
+        <h2 style="color: red;">Rs 7.93</h2>
+        <p>SELECT A COLOR</p>
+
+        <div class="select">
+        <img src="https://iranfreshfruit.net/wp-content/uploads/2020/01/red-apple-fruit.jpg" alt="">
+        <img src="https://chefsmandala.com/wp-content/uploads/2018/03/Apple-Green.jpg" alt="">
+        <img src="https://tse3.mm.bing.net/th/id/OIP.bXm3TzgtmvOIMDvutGMFGAHaHa?pid=Api&P=0&h=180" alt="">
+        <img src="https://cdn.wallpapersafari.com/65/27/9WXIkC.jpg" alt="">
+        </div>
+
+        <h4>BENEFITS</h4>
+        <ul>
+            <li>Apples are nutricious</li>
+            <li>Apples may be good for weight loss</li>
+            <li>Apples may be good for bone health</li>
+            <li>They're linked to a lowest risk of diabetes</li>
+        </ul>
+        <button>ADD TO CART</button>
+
+        </div>
+
+
+    </div>
+
+</body>
+</html>
